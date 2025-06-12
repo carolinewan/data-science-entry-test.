@@ -24,5 +24,6 @@ def string_reverse(s):
         print(s1)
 
 #task 2
+
 string_reverse("Hello World")
 string_reverse("Python")        
