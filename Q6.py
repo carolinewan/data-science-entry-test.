@@ -17,12 +17,12 @@
 #task 1
 
 def find_first_negative(lst):
-    i == 0
+    i = 0
     while i < len(lst): 
-        if list[i] < 0:
+        if lst[i] < 0:
             print(lst[i])
             break
-        elif list[i] >= 0:
+        elif lst[i] >= 0:
             i += 1
     else:
         print("No negatives")
