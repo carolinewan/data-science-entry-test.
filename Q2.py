@@ -16,6 +16,15 @@
 
 
 #answer:
-#taks 1
+# task 1
 
-def find_and_replace(1sr, find_val, replace_val)
+def find_and_replace(lst, find_val, replace_val):
+    if not isinstance(lst, list):
+        return -1
+    else:
+        lst = [replace_val if item == find_val else item for item in lst]
+        print(lst)
+
+# task 1
+find_and_replace([1, 2, 3, 4, 2, 2], 2, 5)
+find_and_replace(["apple", "banana", "apple"], "apple", "orange")
