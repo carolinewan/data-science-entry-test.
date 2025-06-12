@@ -25,10 +25,10 @@ class Car:
         self.year = year
   
     def describe_car(self):
-        print(self.year + self.model + self.make)
+        print(f"{self.year}{self.model}{self.make}")
   
 # Task 2
-my-car = Car("Toyota", "Corolla", 2020)
-decribe_car(my-car)
+my_car = Car("Toyota", "Corolla", 2020)
+my_car.describe_car()
 
 
