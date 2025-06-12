@@ -22,6 +22,6 @@ def update_dictionary(dct, key, value):
         dct[key] = value
         print(dct)
 
-#task 1
+#task 2
 update_dictionary({}, "name", "alice")
 update_dictionary({"age": 25}, "age", 26)
