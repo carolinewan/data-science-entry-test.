@@ -23,7 +23,8 @@ def swap(x, y):
     else: 
         x, y = y, x
         print(f"{x}, {y}")
-    return
+
+
 # task 2
 swap("apple", 10)
 swap(9, 17)
