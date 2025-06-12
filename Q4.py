@@ -17,3 +17,12 @@
 #task 1
 
 def string_reverse(s):
+    if not isinstance(s, string)
+        return -1
+    else:
+        s1 = "".join(reversed(s))
+        print(s1)
+
+#task 2
+string_reverse("Hello World")
+string_reverse("Python")        
