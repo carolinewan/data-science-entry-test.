@@ -7,7 +7,7 @@
     - print the swapped values if both x and y are numeric.
     """
     return
-
+  
 
 # Task 2
 # Invoke the function "swap" using the following scenarios:
@@ -22,8 +22,7 @@ def swap(x, y):
         return -1
     else: 
         x, y = y, x
-        print({y}, {x})
-    return
+        print(f"{x}, {y}")
 # task 2
 swap("apple", 10)
-swap(9, 10)
+swap(9, 17)
